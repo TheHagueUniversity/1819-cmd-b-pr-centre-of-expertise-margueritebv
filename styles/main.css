@@ -1,0 +1,132 @@
+body {
+  font-family: Seravek, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #f8f8f8;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 80%;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  margin: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+li a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.icon {
+  float: right;
+}
+
+.banner-container {
+  position: relative;
+  padding-top: 192px;
+  text-align: center;
+  color: white;
+}
+.banner-title h1 {
+  font-weight: 200;
+  position: absolute;
+  background-color: white;
+  padding: 8px;
+}
+.banner-title #title-1 {
+  left: 50px;
+  top: 270px;
+  color: black;
+}
+.banner-title #title-2 {
+  left: 130px;
+  top: 320px;
+  color: orange;
+}
+
+.banner-title-second {
+  font-weight: 200;
+  position: absolute;
+  left: 100px;
+  top: 25%;
+  color: #ff843a;
+  background-color: white;
+  padding: 8px;
+}
+.black {
+  color: black;
+}
+
+#cards {
+  width: 57%;
+  margin: auto;
+}
+
+.card {
+  margin-top: 64px;
+  display: inline-table;
+  background-color: rgb(242, 242, 242);
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  height: 250px;
+  width: 420px;
+}
+
+.card .text {
+  height: 120px;
+}
+
+.card .text h1 {
+  width: 80%;
+  padding: 8px;
+  margin: 0;
+  margin-top: 16px;
+  padding-bottom: 0;
+}
+
+.card .text p {
+  margin: 0;
+  padding: 8px;
+  padding-top: 0;
+}
+
+.card button {
+  border: 2px solid #ff843a;
+  border-radius: 8px;
+  padding: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: transparent;
+  margin-left: 16px;
+  margin-top: 48px;
+  margin-bottom: 25px;
+  color: #ff843a;
+}
+
+#card-1 {
+  background-image: url("../images/sinaasappelsap_vlek.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+#card-2 {
+  background-image: url("../images/cool_business_dude.png");
+  background-repeat: no-repeat;
+  background-position-x: 250px;
+  background-position-y: center;
+  background-size: 150px;
+  margin-left: 16px;
+  margin-top: 0px;
+}
