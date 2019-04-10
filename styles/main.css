@@ -182,3 +182,11 @@ li a {
   border-radius: 100%;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
 }
+
+#main-container {
+  background-image: url("../images/nog_grotere_sinaasappelsap_vlek.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+  padding-bottom: 240px;
+}

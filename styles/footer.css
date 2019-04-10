@@ -1,0 +1,54 @@
+footer {
+  height: 250px;
+  background-color: rgba(56, 68, 122, 1);
+  padding: 80px 80px 0px 50px;
+}
+
+footer img#social-circles {
+  width: 67px;
+  height: auto;
+  float: left;
+}
+
+footer .block {
+  float: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer .block h2 {
+  color: white;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+footer .block p {
+  color: white;
+  font-size: 13px;
+}
+
+footer .block a {
+  display: block;
+  text-decoration: none;
+  color: #ff843a;
+}
+
+footer .block button {
+  border: 1px solid white;
+  color: white;
+
+  border-radius: 8px;
+  padding: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: transparent;
+}
+
+footer #copyright {
+  font-size: 13px;
+  width: fit-content;
+  margin: auto;
+  padding-top: 64px;
+  display: flex;
+  color: white;
+}

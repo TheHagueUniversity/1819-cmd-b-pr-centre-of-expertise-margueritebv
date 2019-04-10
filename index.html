@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Home</title>
     <link href="./styles/main.css" type="text/css" rel="stylesheet" />
+    <link href="./styles/footer.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <!--In de header komt het logo, hartje voor favorieten en account icoon. Daar onder de navigatie menu en onder menu  banner met slogan -->
@@ -29,82 +30,111 @@
         <a href="#"><img src="./images/love.png"/></a>
       </li>
     </ul>
-    <div class="banner-container">
-      <img
-        style="width: 100%;"
-        src="./images/banner.png"
-        alt="banner"
-        class="banner"
-      />
-      <div class="banner-title">
-        <h1 id="title-1">"Let's change."</h1>
-        <h1 id="title-2">
-          <span class="black">"</span>You<span class="black">.</span>Us<span
-            class="black"
-            >.</span
-          >The World<span class="black">."</span>
-        </h1>
+    <div id="main-container">
+      <div class="banner-container">
+        <img
+          style="width: 100%;"
+          src="./images/banner.png"
+          alt="banner"
+          class="banner"
+        />
+        <div class="banner-title">
+          <h1 id="title-1">"Let's change."</h1>
+          <h1 id="title-2">
+            <span class="black">"</span>You<span class="black">.</span>Us<span
+              class="black"
+              >.</span
+            >The World<span class="black">."</span>
+          </h1>
+        </div>
+      </div>
+      <img src="./images/circles.png" style="position: absolute" />
+      <div id="cards">
+        <div class="card" id="card-1">
+          <div class="text">
+            <h1>Opzoek naar een afstudeerstage?</h1>
+            <p>Klik gauw voor al onze mogelijkheden</p>
+          </div>
+          <button>Meer info</button>
+        </div>
+        <div class="card" id="card-2">
+          <div class="text">
+            <h1>Schrijf je alvast in om direct te kunnen solliciteren!</h1>
+          </div>
+          <button>Inschrijven</button>
+        </div>
+      </div>
+      <div style="width: 100%; display: inline-block;">
+        <img src="./images/circles.png" style="float: right;" />
+      </div>
+      <h1 id="news-title">Nieuws</h1>
+      <div id="news">
+        <img class="arrow" src="images/pijltje-links.png" />
+        <div class="card">
+          <img class="media" src="images/mannetjes_met_geld.png" />
+          <div class="text">
+            <h1>Prijs voor Mobilitheek</h1>
+            <p>29 maart 2018</p>
+          </div>
+          <div class="more">
+            <a href="#">Lees meer ></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="media" src="images/mannetjes_zonder_geld.png" />
+          <div class="text">
+            <h1>Sophia Revalidatie en De Haagse Hogeschool halenbanden aan</h1>
+            <p>25 januari 2018</p>
+          </div>
+          <div class="more">
+            <a href="#">Lees meer ></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="media" src="images/apparatuur.png" />
+          <div class="text">
+            <h1>De Haagse Hogeschool zet cybersecurity...</h1>
+            <p>17 april 2018</p>
+          </div>
+          <div class="more">
+            <a href="#">Lees meer ></a>
+          </div>
+        </div>
+        <img class="arrow" src="images/pijltje-rechts.png" />
+      </div>
+      <div id="circles">
+        <div class="circle" style="background-color: #ff843a;"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
       </div>
     </div>
-    <img src="./images/circles.png" style="position: absolute" />
-    <div id="cards">
-      <div class="card" id="card-1">
-        <div class="text">
-          <h1>Opzoek naar een afstudeerstage?</h1>
-          <p>Klik gauw voor al onze mogelijkheden</p>
-        </div>
-        <button>Meer info</button>
+
+    <footer>
+      <img id="social-circles" src="./images/sociale_media_cirkels.png" />
+      <div class="block">
+        <h2>GA NAAR</h2>
+        <a href="#">Partners</a>
+        <a href="#">Kenniskringleden</a>
+        <a href="#">Docenten</a>
       </div>
-      <div class="card" id="card-2">
-        <div class="text">
-          <h1>Schrijf je alvast in om direct te kunnen solliciteren!</h1>
-        </div>
+      <div class="block">
+        <h2>INFO</h2>
+        <a href="#">Over Ons</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="block">
+        <h2>BEKIJK OOK</h2>
+        <a href="#">Afstudeerplekken</a>
+      </div>
+      <div class="block" style="width: 180px">
+        <h2>INSCHRIJVEN</h2>
+        <p>
+          Schrijf je nu in en krijg een melding wanneer er een afstudeerplek
+          beschikbaar is.
+        </p>
         <button>Inschrijven</button>
       </div>
-    </div>
-    <div style="width: 100%; display: inline-block;">
-      <img src="./images/circles.png" style="float: right;" />
-    </div>
-    <h1 id="news-title">Nieuws</h1>
-    <div id="news">
-      <img class="arrow" src="images/pijltje-links.png" />
-      <div class="card">
-        <img class="media" src="images/mannetjes_met_geld.png" />
-        <div class="text">
-          <h1>Prijs voor Mobilitheek</h1>
-          <p>29 maart 2018</p>
-        </div>
-        <div class="more">
-          <a href="#">Lees meer ></a>
-        </div>
-      </div>
-      <div class="card">
-        <img class="media" src="images/mannetjes_zonder_geld.png" />
-        <div class="text">
-          <h1>Sophia Revalidatie en De Haagse Hogeschool halenbanden aan</h1>
-          <p>25 januari 2018</p>
-        </div>
-        <div class="more">
-          <a href="#">Lees meer ></a>
-        </div>
-      </div>
-      <div class="card">
-        <img class="media" src="images/apparatuur.png" />
-        <div class="text">
-          <h1>De Haagse Hogeschool zet cybersecurity...</h1>
-          <p>17 april 2018</p>
-        </div>
-        <div class="more">
-          <a href="#">Lees meer ></a>
-        </div>
-      </div>
-      <img class="arrow" src="images/pijltje-rechts.png" />
-    </div>
-    <div id="circles">
-      <div class="circle" style="background-color: #ff843a;"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-    </div>
-    <footer></footer>
+      <p id="copyright">© 2016 De Haagse Hogeschool</p>
+    </footer>
   </body>
 </html>
