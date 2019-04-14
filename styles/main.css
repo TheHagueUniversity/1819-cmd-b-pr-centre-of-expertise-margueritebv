@@ -29,6 +29,16 @@ li a {
   color: #666666;
 }
 
+.breadcrumbs {
+  color: black;
+  float: left;
+  margin-top: 50px;
+}
+
+.breadcrumbs span {
+  color: orange;
+}
+
 .icon {
   float: right;
 }

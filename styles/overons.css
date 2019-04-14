@@ -1,0 +1,59 @@
+.card {
+  background-color: white;
+
+  color: black;
+  width: 100%;
+  border-radius: 0;
+}
+
+.card#kwaliteit {
+  background-image: url("../images/circles.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.card .content {
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+}
+
+#form {
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-right: 100px;
+  margin-top: 80px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  width: 20%;
+}
+
+#form h3 {
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+
+#form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#form input {
+  width: 100%;
+}
+
+#form textarea {
+  height: 80px;
+  width: 100%;
+}
+
+#form button {
+  border-radius: 8px;
+  border: 0;
+  background-color: rgba(255, 132, 58, 1);
+  color: white;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
