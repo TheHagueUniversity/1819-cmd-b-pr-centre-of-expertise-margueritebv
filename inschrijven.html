@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link href="./styles/main.css" type="text/css" rel="stylesheet" />
+    <link href="./styles/footer.css" type="text/css" rel="stylesheet" />
+    <link href="./styles/inschrijven.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--In de header komt het logo, hartje voor favorieten en account icoon. Daar onder de navigatie menu en onder menu  banner met slogan -->
+    <ul class="navbar">
+      <img
+        src="./images/logo_transparent.png"
+        style="width: 190px; height: auto; float: left;"
+        alt="logo"
+        id="logo"
+      />
+      <li><a href="index.html">Home</a></li>
+      <li><a href="inschrijven.html">Inschrijven</a></li>
+      <li><a href="afstudeerplekken.html">Afstudeerplekken</a></li>
+      <li><a href="overons.html">Over ons</a></li>
+      <li><a href="contacten.html">Contact</a></li>
+      <li class="icon">
+        <a href="#"><img src="./images/search.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="#"><img src="./images/user.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="#"><img src="./images/love.png"/></a>
+      </li>
+    </ul>
+    <div id="main-container">
+      <div class="banner-container">
+        <div class="breadcrumbs"><span>Home</span> > Inschrijven</div>
+        <div class="card">
+          <h2>LOG IN MET JE E-MAIL:</h2>
+          <label for="email">E-mailadres:</label>
+          <input placeholder="E-mailadres..." type="email" />
+          <label for="email">Wachtwoord:</label>
+          <input placeholder="Wachtwoord..." type="password" />
+          <button>AANMELDEN</button>
+          <a href="#">Wachtwoord vergeten?</a>
+          <h2>LOG IN MET JE...</h2>
+          <img
+            src="./images/sociale_media_cirkels_horizontaal.png"
+            alt="social"
+            style="width: 200px;"
+          />
+        </div>
+        <div id="divider"></div>
+        <div
+          class="card"
+          style="position: absolute; height: fit-content; margin-left: -580px;"
+        >
+          <h2>Ik heb geen account</h2>
+          <p>Vul je gegevens in om te solliciteren</p>
+          <button
+            style="background-color: rgba(255, 132, 58, 1); color: white;"
+          >
+            GA VERDER
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img id="social-circles" src="./images/sociale_media_cirkels.png" />
+      <div class="block">
+        <h2>GA NAAR</h2>
+        <a href="#">Partners</a>
+        <a href="#">Kenniskringleden</a>
+        <a href="#">Docenten</a>
+      </div>
+      <div class="block">
+        <h2>INFO</h2>
+        <a href="#">Over Ons</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="block">
+        <h2>BEKIJK OOK</h2>
+        <a href="#">Afstudeerplekken</a>
+      </div>
+      <div class="block" style="width: 180px">
+        <h2>INSCHRIJVEN</h2>
+        <p>
+          Schrijf je nu in en krijg een melding wanneer er een afstudeerplek
+          beschikbaar is.
+        </p>
+        <button>Inschrijven</button>
+      </div>
+      <p id="copyright">© 2016 De Haagse Hogeschool</p>
+    </footer>
+  </body>
+</html>
