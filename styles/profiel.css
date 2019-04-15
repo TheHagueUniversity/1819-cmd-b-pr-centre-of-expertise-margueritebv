@@ -1,0 +1,78 @@
+.sidebar {
+  float: left;
+  width: 500px;
+}
+
+.sidebar a {
+  color: rgba(255, 132, 58, 1);
+}
+
+button {
+  border-width: 1px;
+}
+
+.card.content {
+  width: 60%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.card.content h1 {
+  margin-bottom: 5px;
+}
+
+.card.content .field {
+  margin-top: 10px;
+}
+
+.card.content .field b {
+  display: inline-block;
+
+  width: 200px;
+}
+
+.divider {
+  border-bottom: 1px solid black;
+  height: 1px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.card {
+  text-align: left;
+  padding: 10px;
+  height: fit-content;
+}
+
+.card#profile-head {
+  float: left;
+}
+
+.card#profile-head h3 {
+  vertical-align: middle;
+  float: left;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.card#profile-head img {
+  width: 100px;
+  float: left;
+  margin-left: -40px;
+}
+
+.card.side {
+  display: block;
+  float: left;
+  margin-top: 20px;
+}
+
+.card.side.active {
+  border: 1px solid orange;
+}
+
+.field a {
+  color: orange;
+  display: inline-block;
+}

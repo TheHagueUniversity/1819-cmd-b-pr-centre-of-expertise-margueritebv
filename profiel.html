@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link href="./styles/main.css" type="text/css" rel="stylesheet" />
+    <link href="./styles/footer.css" type="text/css" rel="stylesheet" />
+    <link href="./styles/profiel.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--In de header komt het logo, hartje voor favorieten en account icoon. Daar onder de navigatie menu en onder menu  banner met slogan -->
+    <ul class="navbar">
+      <img
+        src="./images/logo_transparent.png"
+        style="width: 190px; height: auto; float: left;"
+        alt="logo"
+        id="logo"
+      />
+      <li><a href="index.html">Home</a></li>
+      <li><a href="inschrijven.html">Inschrijven</a></li>
+      <li><a href="afstudeerplekken.html">Afstudeerplekken</a></li>
+      <li><a href="overons.html">Over ons</a></li>
+      <li><a href="contacten.html">Contact</a></li>
+      <li class="icon">
+        <a href="#"><img src="./images/search.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="profiel.html"><img src="./images/user.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="#"><img src="./images/love.png"/></a>
+      </li>
+    </ul>
+    <div id="main-container">
+      <div class="banner-container" style="height: 1500px;">
+        <div class="breadcrumbs">
+          <span><a href="index.html" class="orange">Home</a> > Profiel</span>
+        </div>
+        <div class="sidebar">
+          <div class="card" id="profile-head">
+            <img src="./images/profiel.png" alt="profiel" />
+            <h3>
+              Marguerite Beckand Verwee
+            </h3>
+          </div>
+
+          <div class="card side active">
+            <a href="#">Mijn gegevens</a>
+          </div>
+
+          <div class="card side">
+            <a href="#">Favorieten</a>
+          </div>
+
+          <div class="card side">
+            <a href="#">Help</a>
+          </div>
+
+          <div class="card side">
+            <a href="#">Settings</a>
+          </div>
+
+          <div class="card side">
+            <a href="#">Uitloggen</a>
+          </div>
+        </div>
+        <div class="card content">
+          <h1>
+            Check je gegevens<button style="float:right; margin-top: 0;">
+              WIJZIG
+            </button>
+          </h1>
+          <div class="field">
+            <b>Naam</b><span>Marguerite Beckand Verwée </span>
+          </div>
+          <div class="field">
+            <b>E-mail </b><span>margueritebv@gmail.com </span>
+          </div>
+          <div class="field">
+            <b>Adres & plaats </b><span>Tjotterkade 63, Zoetermeer </span>
+          </div>
+          <div class="field">
+            <b>Mobiel / Telefoon </b><span>+31 6 27256667</span>
+          </div>
+          <div class="divider"></div>
+          <h1>
+            Profielfoto<button style="float:right; margin-top: 0;">
+              WIJZIG
+            </button>
+          </h1>
+          <img
+            src="./images/profiel.png"
+            alt="profiel"
+            style="height: 200px;"
+          />
+          <div class="divider"></div>
+          <h1>
+            Opleiding<button style="float:right; margin-top: 0;">
+              WIJZIG
+            </button>
+          </h1>
+          <div class="field"><b>Type</b><span>Middelbare school </span></div>
+          <div class="field"><b>Niveau </b><span>HAVO</span></div>
+          <div class="field">
+            <b>Mijn CV </b><span>CV toevoegen </span>
+            <a href="#" style="margin-left: 20px;">Bestand toevoegen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img id="social-circles" src="./images/sociale_media_cirkels.png" />
+      <div class="block">
+        <h2>GA NAAR</h2>
+        <a href="#">Partners</a>
+        <a href="#">Kenniskringleden</a>
+        <a href="#">Docenten</a>
+      </div>
+      <div class="block">
+        <h2>INFO</h2>
+        <a href="#">Over Ons</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="block">
+        <h2>BEKIJK OOK</h2>
+        <a href="#">Afstudeerplekken</a>
+      </div>
+      <div class="block" style="width: 180px">
+        <h2>INSCHRIJVEN</h2>
+        <p>
+          Schrijf je nu in en krijg een melding wanneer er een afstudeerplek
+          beschikbaar is.
+        </p>
+        <button>Inschrijven</button>
+      </div>
+      <p id="copyright">© 2016 De Haagse Hogeschool</p>
+    </footer>
+  </body>
+</html>
