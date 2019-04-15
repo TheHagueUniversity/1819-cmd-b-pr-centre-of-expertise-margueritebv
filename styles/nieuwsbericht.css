@@ -1,0 +1,56 @@
+h1#title {
+  color: white;
+  top: 410px;
+  left: 25px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+#title-content span {
+  text-align: left;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+
+#title-content b {
+  font-size: 32px;
+  text-align: left;
+  display: inline-block;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  text-align: left;
+}
+
+.card img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  display: inline-block;
+  width: 67%;
+  border-bottom: 1px solid black;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+span.content {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+span.section {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
