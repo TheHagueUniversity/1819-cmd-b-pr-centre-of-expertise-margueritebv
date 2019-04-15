@@ -21,6 +21,11 @@ body {
   width: 100%;
 }
 
+button.filled {
+  background: #ff843a;
+  color: white;
+}
+
 .breadcrumbs span {
   float: left;
 }
