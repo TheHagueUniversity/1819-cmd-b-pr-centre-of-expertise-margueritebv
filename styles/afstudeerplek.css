@@ -1,0 +1,115 @@
+.banner-container {
+  text-align: unset;
+  height: 1000px;
+}
+
+.card {
+  height: unset;
+  background-color: white;
+}
+
+h1#title {
+  color: white;
+  top: 410px;
+  left: 25px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+h1.title {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  display: inline-block;
+  width: 100%;
+}
+
+.card {
+  width: 70%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.card .description {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.card .description ul {
+  list-style-type: none;
+}
+
+.card .description li {
+  padding: 2px;
+}
+
+.card .description i {
+  padding-left: 40px;
+  display: inline-block;
+}
+
+.card p {
+  display: inline-block;
+}
+
+.card a {
+  color: orange;
+}
+
+button.filled {
+  background: #ff843a;
+  color: white;
+}
+
+.card.side {
+  margin-left: 50px;
+  vertical-align: top;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card b {
+  display: inline-block;
+}
+
+.card.side #location {
+  display: block;
+  width: 250px;
+}
+.card.side ul {
+  padding: 0;
+  font-size: 12px;
+  list-style-type: none;
+}
+.side {
+  float: right;
+  width: 20%;
+}
+
+.card.side label {
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card.side input {
+  width: 100%;
+}
+button {
+  margin: 0;
+}
+
+.card.side button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card.side a {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+}
