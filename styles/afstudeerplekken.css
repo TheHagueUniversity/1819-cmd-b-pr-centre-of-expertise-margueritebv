@@ -1,0 +1,118 @@
+.banner-container {
+  text-align: unset;
+  height: 1000px;
+}
+
+h1#title {
+  color: white;
+  top: 410px;
+  left: 25px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.sidebar {
+  float: left;
+  width: fit-content;
+  margin-right: 150px;
+}
+
+.sidebar .title {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.sidebar h4 {
+  margin-top: 10px;
+}
+
+.sidebar .content {
+  padding-left: 10px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border: 1px solid black;
+  padding-right: 10px;
+  margin-bottom: 25px;
+}
+
+.sidebar .content ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.results {
+  width: 60%;
+  float: left;
+}
+
+.results .title {
+  padding-bottom: 10px;
+  display: block;
+}
+
+.results .content .item {
+  padding-left: 10px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.results .content .item h4 {
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+  width: 80%;
+  padding: 5px;
+  padding-right: 50px;
+  float: left;
+}
+
+.results .content .item .icon {
+  margin: 10px;
+  margin-top: 20px;
+  float: right;
+}
+
+.results .content .item .image {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.results .content .item .title-description {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.results .content .item .title {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+
+.results .content .item .description {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.buttons {
+  display: inline-block;
+  width: 100%;
+}
+
+button {
+  margin: 0;
+  font-size: 12px;
+  border-width: 1px;
+  float: right;
+  margin-left: 10px;
+}
+
+button.filled {
+  background: #ff843a;
+  color: white;
+}

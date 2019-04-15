@@ -2,25 +2,258 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Centre of Expertise</title>
-    <link href="" type="text/css" rel="stylesheet" />
+    <title>Home</title>
+    <link href="./styles/main.css" type="text/css" rel="stylesheet" />
+    <link href="./styles/footer.css" type="text/css" rel="stylesheet" />
+    <link
+      href="./styles/afstudeerplekken.css"
+      type="text/css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="inschrijven.html">Inschrijven</a></li>
-        <li><a href="afstudeerplekken.html">Afstudeerplekken</a></li>
-        <li><a href="overons.html">Over ons</a></li>
-        <li><a href="contacten.html">Contact</a></li>
-      </ul>
-    </nav>
+    <!--In de header komt het logo, hartje voor favorieten en account icoon. Daar onder de navigatie menu en onder menu  banner met slogan -->
+    <ul class="navbar">
+      <img
+        src="./images/logo_transparent.png"
+        style="width: 190px; height: auto; float: left;"
+        alt="logo"
+        id="logo"
+      />
+      <li><a href="index.html">Home</a></li>
+      <li><a href="inschrijven.html">Inschrijven</a></li>
+      <li><a href="afstudeerplekken.html">Afstudeerplekken</a></li>
+      <li><a href="overons.html">Over ons</a></li>
+      <li><a href="contacten.html">Contact</a></li>
+      <li class="icon">
+        <a href="#"><img src="./images/search.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="profiel.html"><img src="./images/user.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="#"><img src="./images/love.png"/></a>
+      </li>
+    </ul>
+    <div id="main-container">
+      <div class="banner-container">
+        <img
+          style="width: 100%;"
+          src="./images/zoek.png"
+          alt="banner"
+          class="banner"
+        />
+        <div class="banner-title">
+          <h1 id="title"><b>Afstudeerplekken</b></h1>
+        </div>
+        <div class="breadcrumbs">
+          <span
+            ><a href="index.html" class="orange">Home</a> >
+            Afstudeerplekken</span
+          >
+        </div>
 
-    <main>
-      <h1>Dit zijn de afstudeerplekken</h1>
-    </main>
+        <div class="sidebar">
+          <span class="title">FILTER</span>
 
-    <footer></footer>
+          <div class="content">
+            <h4>Richting:</h4>
+
+            <ul>
+              <li><input type="checkbox" /> Accounting</li>
+              <li><input type="checkbox" /> Actuariaat / Risk</li>
+              <li><input type="checkbox" /> Banking / Finance</li>
+              <li><input type="checkbox" /> Consulting</li>
+              <li><input type="checkbox" /> Engineering / Techniek</li>
+              <li><input type="checkbox" /> Fiscaal</li>
+              <li><input type="checkbox" /> HRM / Recruitment</li>
+              <li><input type="checkbox" /> IT / ICT</li>
+              <li><input type="checkbox" /> Juridisch</li>
+              <li><input type="checkbox" /> Management</li>
+              <li><input type="checkbox" /> Marketing / Product Management</li>
+              <li><input type="checkbox" /> Offshore Online Marketing</li>
+              <li><input type="checkbox" /> Operations & Service</li>
+              <li><input type="checkbox" /> PR / Communicatie</li>
+              <li><input type="checkbox" /> Sales</li>
+              <li><input type="checkbox" /> Supply Chain</li>
+              <li><input type="checkbox" /> Overige</li>
+            </ul>
+          </div>
+
+          <div class="content">
+            <h4>Niveau:</h4>
+
+            <ul>
+              <li><input type="checkbox" /> HBO</li>
+              <li><input type="checkbox" /> WO</li>
+              <li><input type="checkbox" /> HBO & WO</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h4>Bedrijf:</h4>
+
+            <ul>
+              <li><input type="checkbox" /> A.S. Watson</li>
+              <li><input type="checkbox" /> ABN AMRO bank</li>
+              <li><input type="checkbox" /> Accenture</li>
+              <li><input type="checkbox" /> Achmea</li>
+              <li><input type="checkbox" /> Aegon</li>
+              <li><input type="checkbox" /> Ahold Delhaize</li>
+              <li><input type="checkbox" /> Allen & Overy</li>
+              <li><input type="checkbox" /> ASML</li>
+              <li><input type="checkbox" /> Auditdienst Rijk</li>
+              <li><input type="checkbox" /> Bain & Company</li>
+              <li><input type="checkbox" /> Baker Mckenzie</li>
+            </ul>
+          </div>
+        </div>
+        <div class="results">
+          <span class="title">AFSTUDEERPLEKKEN</span>
+
+          <div class="content">
+            <div class="item">
+              <h4>Stage Trade Marketing/Retail</h4>
+              <img class="icon" src="./images/love.png" alt="love" />
+              <img class="image" src="./images/BIER.png" alt="bier" />
+              <div class="title-description">
+                <b class="title">Richting(en): Sales | Niveau: HBO </b>
+                <p class="description">
+                  Wil jij ervaring opdoen in Trade Marketing, Retail en/of FMCG?
+                  Heb je commerciële ambities en ben jij goed in project
+                  management? Dan is deze stage iets voor jou!‪‬‬‬‬‬‬‬‬‬
+                </p>
+              </div>
+              <div class="buttons">
+                <button class="filled">Meer lezen</button>
+                <button>Solliciteren</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="item">
+              <h4>Werkstudent Employment Tax & Benefits</h4>
+              <img class="icon" src="./images/love.png" alt="love" />
+              <img class="image" src="./images/tata.png" alt="bier" />
+              <div class="title-description">
+                <b class="title"
+                  >Richting(en): Accounting, Fiscaal | Niveau: WO
+                </b>
+                <p class="description">
+                  Ben je een masterstudent die staat te popelen om zijn/haar
+                  opgedane fiscale kennis in de praktijk te brengen en daarnaast
+                  nieuwsgierig hoe PwC binnen de wereld van Employement Tax
+                  samenwerkt en haar klanten adviseert en begeleidt op fiscaal
+                  gebied? Ga dan aan de slag als werkstudent
+                </p>
+              </div>
+              <div class="buttons">
+                <button class="filled">Meer lezen</button>
+                <button>Solliciteren</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="item">
+              <h4>(Meewerk)stage Marketing, Communicatie, Branding</h4>
+              <img class="icon" src="./images/love.png" alt="love" />
+              <img class="image" src="./images/asml.png" alt="bier" />
+              <div class="title-description">
+                <b class="title"
+                  >Richting(en): Marketing / Product Management, PR /
+                  Communicatie
+                </b>
+                <p class="description">
+                  Parkeer jij jezelf hier voor de komende maanden? Herken jij
+                  jezelf in zelfstandig, enthousiast, creatief en op zoek naar
+                  uitdaging? Wil jij van dichtbij meemaken hoe
+                  marketingcommunicatie wordt bedreven en rebranding wordt
+                  geïmplementeerd binnen een groot bedrijf als Royal Schiphol
+                  Group?
+                </p>
+              </div>
+              <div class="buttons">
+                <button class="filled">Meer lezen</button>
+                <button>Solliciteren</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="item">
+              <h4>WO Meewerkstage Capital Structuring & Advisory MidCorp</h4>
+              <img class="icon" src="./images/love.png" alt="love" />
+              <img class="image" src="./images/klm.png" alt="bier" />
+              <div class="title-description">
+                <b class="title"
+                  >Richting(en): Banking / Finance | Niveau: WO
+                </b>
+                <p class="description">
+                  Ben jij een ambitieuze student met interesse in Banking/
+                  Corporate Finance en een carrière in de financiële sector? Dan
+                  komen wij graag met jou in gesprek. ING zoekt een stagiair
+                  voor de afdeling Capital Structuring & Advisory MidCorp (“CS&A
+                  MC”) te Amsterdam.‪‬‬‬‬‬‬‬‬‬
+                </p>
+              </div>
+              <div class="buttons">
+                <button class="filled">Meer lezen</button>
+                <button>Solliciteren</button>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="item">
+              <h4>HBO Meewerkstage specialist interne communicatie</h4>
+              <img class="icon" src="./images/love.png" alt="love" />
+              <img class="image" src="./images/ing.png" alt="bier" />
+              <div class="title-description">
+                <b class="title"
+                  >Richting(en): PR / Communicatie, Online Marketing, Marketing
+                </b>
+                <p class="description">
+                  Hoe bereik je effectief en snel 500 collega’s in 100 winkels?
+                  Dat is jouw uitdaging! Hoe? Je wordt verantwoordelijk voor het
+                  intranet waar de winkelcollega’s dagelijks hun informatie
+                  vandaan halen....
+                </p>
+              </div>
+              <div class="buttons">
+                <button class="filled">Meer lezen</button>
+                <button>Solliciteren</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img id="social-circles" src="./images/sociale_media_cirkels.png" />
+      <div class="block">
+        <h2>GA NAAR</h2>
+        <a href="#">Partners</a>
+        <a href="#">Kenniskringleden</a>
+        <a href="#">Docenten</a>
+      </div>
+      <div class="block">
+        <h2>INFO</h2>
+        <a href="#">Over Ons</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="block">
+        <h2>BEKIJK OOK</h2>
+        <a href="#">Afstudeerplekken</a>
+      </div>
+      <div class="block" style="width: 180px">
+        <h2>INSCHRIJVEN</h2>
+        <p>
+          Schrijf je nu in en krijg een melding wanneer er een afstudeerplek
+          beschikbaar is.
+        </p>
+        <button>Inschrijven</button>
+      </div>
+      <p id="copyright">© 2016 De Haagse Hogeschool</p>
+    </footer>
   </body>
 </html>
