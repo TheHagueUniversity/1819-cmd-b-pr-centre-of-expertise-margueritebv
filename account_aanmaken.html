@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link href="./styles/main.css" type="text/css" rel="stylesheet" />
+    <link href="./styles/footer.css" type="text/css" rel="stylesheet" />
+    <link
+      href="./styles/account_aanmaken.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--In de header komt het logo, hartje voor favorieten en account icoon. Daar onder de navigatie menu en onder menu  banner met slogan -->
+    <ul class="navbar">
+      <img
+        src="./images/logo_transparent.png"
+        style="width: 190px; height: auto; float: left;"
+        alt="logo"
+        id="logo"
+      />
+      <li><a href="index.html">Home</a></li>
+      <li><a href="inschrijven.html">Inschrijven</a></li>
+      <li><a href="afstudeerplekken.html">Afstudeerplekken</a></li>
+      <li><a href="overons.html">Over ons</a></li>
+      <li><a href="contacten.html">Contact</a></li>
+      <li class="icon">
+        <a href="#"><img src="./images/search.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="#"><img src="./images/user.png"/></a>
+      </li>
+      <li class="icon">
+        <a href="#"><img src="./images/love.png"/></a>
+      </li>
+    </ul>
+    <div id="main-container">
+      <div class="banner-container" style="height: 1500px;">
+        <div class="breadcrumbs">
+          <span
+            ><a href="index.html" class="orange">Home</a> > Account
+            aanmaken</span
+          >
+        </div>
+        <div class="content">
+          <div id="form" style="float:right;">
+            <h3>Vragen?</h3>
+            <label>E-mailadres</label>
+            <input type="email" />
+            <label>Vraag</label>
+            <textarea type="textarea"></textarea>
+            <button>Verzenden</button>
+          </div>
+          <div class="card" style="float: left; margin-top: 0;">
+            <h1>Vul je je gegevens in om je in te schrijven</h1>
+            <div class="label">
+              <label for="email">E-mail<span class="orange">*</span></label>
+            </div>
+            <input type="email" />
+            <a id="facebook" href="#"
+              >Klik hier om je gegevens aan te vullen vanuit Facebook
+            </a>
+          </div>
+          <div class="card" style="float: left;">
+            <h1>Mijn persoongegevens</h1>
+            <div class="field">
+              <div class="label">
+                <label for="naam">Roepnaam<span class="orange">*</span></label>
+              </div>
+              <input type="text" />
+            </div>
+            <div class="field">
+              <div class="label">
+                <label for="naam"
+                  >Achternaam<span class="orange">*</span></label
+                >
+              </div>
+              <input type="text" />
+            </div>
+            <div class="field">
+              <div class="label">
+                <label for="naam">Geslacht<span class="orange">*</span></label>
+              </div>
+              <input type="radio" style="width: fit-content;" />Vrouw
+              <input type="radio" style="width: fit-content;" />Man
+            </div>
+            <div class="field">
+              <div class="label">
+                <label for="naam"
+                  >Geboortedatum<span class="orange">*</span></label
+                >
+              </div>
+              <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option selected="" value="DD">DD</option>
+              </select>
+              <select>
+                <option value="Maand">Maand</option>
+                <option value="januari">januari</option>
+                <option value="februari">februari</option>
+                <option value="maart">maart</option>
+                <option value="april">april</option>
+                <option value="mei">mei</option>
+                <option value="juni">juni</option>
+                <option value="juli">juli</option>
+                <option value="augustus">augustus</option>
+                <option value="september">september</option>
+                <option value="oktober">oktober</option>
+                <option value="november">november</option>
+                <option value="december">december</option>
+                <option selected="" value="MM">MM</option>
+              </select>
+              <select>
+                <option selected="" value="JJJJ">JJJJ</option>
+                <option value="1900 t/m 2019">1900 t/m 2019</option>
+                <option value="1999">1999</option>
+              </select>
+            </div>
+            <a id="facebook" href="#"
+              >Klik hier om je gegevens aan te vullen vanuit Facebook
+            </a>
+          </div>
+          <div class="card" style="float: left;">
+            <h1>Mijn contactgegevens</h1>
+            <div class="field">
+              <div class="label">
+                <label for="naam">Land<span class="orange">*</span></label>
+              </div>
+              <select>
+                <option>Nederland</option>
+                <option>Engeland</option>
+              </select>
+            </div>
+            <div class="field">
+              <div class="label">
+                <label for="naam">Postcode<span class="orange">*</span></label>
+              </div>
+              <input type="text" />
+            </div>
+            <div class="field">
+              <div class="label">
+                <label for="naam"
+                  >Huisnummer<span class="orange">*</span></label
+                >
+              </div>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="card" style="float: left;">
+            <div class="field">
+              <div class="label">
+                <label for="naam"
+                  >Wachtwoord<span class="orange">*</span></label
+                >
+              </div>
+              <input type="text" />
+            </div>
+
+            <div class="field">
+              <div class="label">
+                <label for="naam"
+                  >Wachtwoord herhalen<span class="orange">*</span></label
+                >
+              </div>
+              <input type="text" />
+            </div>
+          </div>
+          <div id="form-action" class="card" style="float:left;">
+            <button id="confirm">BEVESTIGEN</button>
+            <button id="cancel">ANNULEREN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img id="social-circles" src="./images/sociale_media_cirkels.png" />
+      <div class="block">
+        <h2>GA NAAR</h2>
+        <a href="#">Partners</a>
+        <a href="#">Kenniskringleden</a>
+        <a href="#">Docenten</a>
+      </div>
+      <div class="block">
+        <h2>INFO</h2>
+        <a href="#">Over Ons</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="block">
+        <h2>BEKIJK OOK</h2>
+        <a href="#">Afstudeerplekken</a>
+      </div>
+      <div class="block" style="width: 180px">
+        <h2>INSCHRIJVEN</h2>
+        <p>
+          Schrijf je nu in en krijg een melding wanneer er een afstudeerplek
+          beschikbaar is.
+        </p>
+        <button>Inschrijven</button>
+      </div>
+      <p id="copyright">© 2016 De Haagse Hogeschool</p>
+    </footer>
+  </body>
+</html>

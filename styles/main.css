@@ -33,9 +33,18 @@ li a {
   color: black;
   float: left;
   margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  width: 100%;
 }
 
 .breadcrumbs span {
+  float: left;
+}
+
+.breadcrumbs a.orange {
+  padding-right: 5px;
+
   color: orange;
 }
 
@@ -47,7 +56,7 @@ li a {
   position: relative;
   padding-top: 192px;
   text-align: center;
-  color: white;
+  min-height: 600px;
 }
 .banner-title h1 {
   font-weight: 200;
@@ -85,13 +94,17 @@ li a {
 }
 
 .card {
-  margin-top: 64px;
   display: inline-table;
-  background-color: rgb(242, 242, 242);
-  border-radius: 8px;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
   height: 250px;
   width: 420px;
+}
+
+.card.grey {
+  background-color: rgb(242, 242, 242);
+}
+.card.rounded {
+  border-radius: 8px;
 }
 
 .card .text {
@@ -112,7 +125,7 @@ li a {
   padding-top: 0;
 }
 
-.card button {
+button {
   border: 2px solid #ff843a;
   border-radius: 8px;
   padding: 10px;

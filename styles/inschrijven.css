@@ -33,7 +33,6 @@
   display: block;
   color: rgba(255, 132, 58, 1);
   font-size: 12px;
-  margin-top: 10px;
 }
 
 #divider {
@@ -41,7 +40,6 @@
 
   width: 1px;
   display: inline-block;
-  margin-top: 64px;
   border-right: 1px solid rgba(255, 132, 58, 1);
   height: 430px;
   margin-left: 30px;
