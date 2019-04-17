@@ -8,6 +8,7 @@ h1#title {
 
 .card.grey {
   width: 100%;
+  margin-top: 70px;
 }
 
 .card.grey .content {
@@ -20,9 +21,7 @@ h1#title {
 
 .tab {
   overflow: hidden;
-  margin-top: 50px;
-  display: inline-block;
-  margin-bottom: -5px;
+  margin-top: -50px;
 }
 
 .tab button {
@@ -46,6 +45,14 @@ button {
   border-radius: 8px 8px 0 0;
 }
 
+.card {
+  height: fit-content;
+  width: 70%;
+  float: left;
+  border-radius: 10px;
+  background-color: white;
+}
+
 #form {
   text-align: left;
   padding: 20px;
@@ -54,8 +61,7 @@ button {
   width: 20%;
   margin-right: 50px;
   color: black;
-  background-color: white;
-  border-radius: 8px;
+  background-color: rgba(242, 242, 242, 1);
 }
 .orange {
   color: rgba(255, 132, 58, 1);
@@ -89,81 +95,4 @@ button {
   margin: auto;
   display: block;
   margin-top: 10px;
-}
-
-.card {
-  height: fit-content;
-  width: 70%;
-  float: left;
-  border-radius: 10px;
-  background-color: white;
-  text-align: left;
-  padding: 20px;
-}
-
-.card .image {
-  display: inline-block;
-  width: 20%;
-}
-
-.card .image img {
-  width: 100%;
-}
-
-.card .description {
-  display: inline-block;
-  width: 70%;
-  padding-left: 20px;
-  vertical-align: top;
-}
-
-.card .description h3 {
-  margin-top: 0;
-  border-bottom: 1px solid black;
-}
-
-.card .description .details {
-  display: inline-block;
-  width: 100%;
-}
-
-.card .description .details ul {
-  padding: 0;
-  list-style-type: none;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
-}
-
-.card .description .details ul li span {
-  color: orange;
-}
-
-.card .description .details img {
-  float: right;
-  margin-top: -15px;
-  width: 80px;
-}
-
-.card.profile {
-  width: fit-content;
-  margin-right: 20px;
-}
-
-.card.profile .image {
-  text-align: center;
-  width: 100%;
-}
-
-.card.profile h2 {
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-.card.profile .image img {
-  width: 150px;
-}
-
-.card.profile a {
-  color: orange;
 }
